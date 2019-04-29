@@ -6,8 +6,10 @@ edition = "2018"
 
 [dependencies]
 #ash = "0.29.0"
-ash = { path = "c:/users/jasper/ash/ash/" }
-vk-mem = {path = "../vk-mem-rs"}
+#ash = { path = "c:/users/jasper/ash/ash/" }
+#vk-mem = {path = "../vk-mem-rs"}
+ash = {git = "https://github.com/Jasper-Bekkers/ash.git" }
+vk-mem = {git = "https://github.com/Jasper-Bekkers/vk-mem-rs.git" }
 
 [dependencies.shared_library]
 version = "0.1.9"
