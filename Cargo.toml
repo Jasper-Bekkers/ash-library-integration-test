@@ -1,0 +1,13 @@
+[package]
+name = "ash-test"
+version = "0.1.0"
+authors = ["Jasper-Bekkers <bekkers@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+#ash = "0.29.0"
+ash = { path = "c:/users/jasper/ash/ash/" }
+vk-mem = {path = "../vk-mem-rs"}
+
+[dependencies.shared_library]
+version = "0.1.9"
